@@ -3,10 +3,10 @@ package ru.akvine.compozit.commons;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
-import java.util.List;
+import java.util.Map;
 
 @Data
 @Accessors(chain = true)
 public class Configuration {
-    private List<TableConfig> tablesConfigs;
+    private Map<String, TableConfig> tablesConfigs;
 }

@@ -17,6 +17,8 @@ public class ColumnConfig {
 
     private boolean notNull;
 
+    private boolean valid;
+
     @NotBlank
     private String rangeType;
 
