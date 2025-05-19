@@ -1,5 +1,6 @@
 package ru.akvine.compozit.commons;
 
+import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 
@@ -11,6 +12,6 @@ public class GenerateDataRequest {
     @NotNull
     private RelationsMatrixDto relationsMatrix;
 
-    @NotNull
-    private ConnectionDto connection;
+    @NotBlank
+    private String connectionName;
 }
