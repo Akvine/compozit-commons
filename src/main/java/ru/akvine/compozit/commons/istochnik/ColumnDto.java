@@ -22,7 +22,7 @@ public class ColumnDto {
 
     private boolean convertToString;
 
-    private List<FilterDto> postFilters;
+    private List<ConverterDto> postConverters;
 
-    private List<FilterDto> filters;
+    private List<ConverterDto> converters;
 }

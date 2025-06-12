@@ -5,7 +5,7 @@ import lombok.experimental.Accessors;
 
 @Data
 @Accessors(chain = true)
-public class FilterDto {
+public class ConverterDto {
     private String name;
 
     private Object[] arguments = new Object[]{};
