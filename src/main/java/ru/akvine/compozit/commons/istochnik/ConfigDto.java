@@ -3,6 +3,7 @@ package ru.akvine.compozit.commons.istochnik;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
+import java.util.List;
 import java.util.Set;
 
 @Data
@@ -29,4 +30,8 @@ public class ConfigDto {
     private Set<Set<String>> dictionaries;
 
     private Set<String> regexps;
+
+    private List<String> topics = List.of();
+
+    private String language;
 }
