@@ -1,6 +1,7 @@
 package ru.akvine.compozit.commons.istochnik;
 
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.NotNull;
 import lombok.Data;
 import lombok.experimental.Accessors;
 
@@ -25,4 +26,7 @@ public class ColumnDto {
     private List<ConverterDto> postConverters;
 
     private List<ConverterDto> converters;
+
+    @NotNull
+    private ErrorResolveInfo errorResolveInfo = new ErrorResolveInfo();
 }
