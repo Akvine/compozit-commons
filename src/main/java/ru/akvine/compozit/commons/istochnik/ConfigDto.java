@@ -34,4 +34,6 @@ public class ConfigDto {
     private List<String> topics = List.of();
 
     private String language;
+
+    private String seed;
 }
