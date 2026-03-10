@@ -9,4 +9,6 @@ public class ConverterDto {
     private String name;
 
     private Object[] arguments = new Object[]{};
+
+    private int probability = 100;
 }
