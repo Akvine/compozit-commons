@@ -7,4 +7,5 @@ import lombok.experimental.Accessors;
 @Accessors(chain = true)
 public class CustomBaseTypeDto extends BaseTypeDto {
     private String customType;
+    private String example;
 }
